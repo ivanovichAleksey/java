@@ -25,9 +25,11 @@ public class Deposite  {
                     if (i > 1) {
                         System.out.print("Вы ввели неверный пароль." + "\nУ вас осталось " + (i - 1) + " попытка(и). \n");
                     }
-                } else {
+                }
+                else {
                     balanse -= sum;
                     System.out.println("С вашего счета списано " + sum);
+                    return;
                 }
 
                 if (pin != pinCode && i == 1) {

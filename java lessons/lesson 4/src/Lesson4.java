@@ -32,7 +32,7 @@ public class Lesson4 {
         deposite1.setPinCode(1234);
         deposite1.add(10000);
         try {
-            deposite1.getMoney(1000);
+            deposite1.getMoney(10000);
             deposite1.printMyBalance();
         }
         catch (MyException e){

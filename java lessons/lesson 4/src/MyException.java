@@ -1,5 +1,5 @@
 public class MyException extends Exception {
     public String getError(){
-        return "Неверный пин код";
+        return "Вы ввели неверный пароль. Ваша карта заблокирована";
     }
 }

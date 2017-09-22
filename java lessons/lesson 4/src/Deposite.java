@@ -17,12 +17,27 @@ public class Deposite  {
 
     public void getMoney(int sum) throws IOException, MyException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        if (balanse >= sum) {
+            for (int i = 3; i > 0; i--) {
+                System.out.print("Введите пин код: ");
+                int pin = Integer.parseInt(reader.readLine());
+                if (pin != pinCode) {
+                    if (i > 1) {
+                        System.out.print("Вы ввели неверный пароль." + "\nУ вас осталось " + (i - 1) + " попытка(и). \n");
+                    }
+                } else {
+                    balanse -= sum;
+                    System.out.println("С вашего счета списано " + sum);
+                }
 
-        int pin = Integer.parseInt(reader.readLine());
-        if (pin != pinCode){
-            throw new MyException();
+                if (pin != pinCode && i == 1) {
+                    throw new MyException();
+                }
+            }
         }
-        balanse -=sum;
+        else {
+            System.out.println("У вас недостаточно денег на счету");
+        }
     }
 
     public void printMyBalance(){

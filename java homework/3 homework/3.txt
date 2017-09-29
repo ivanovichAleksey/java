@@ -1,0 +1,3 @@
+установить Wamp Server
+
+http://www.wampserver.com/ru/

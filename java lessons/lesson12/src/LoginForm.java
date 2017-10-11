@@ -28,7 +28,21 @@ public class LoginForm extends JFrame {
                 }
                 catch (Exception ex){
                     JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.WARNING_MESSAGE);
+                    return;
                 }
+                GameForm gf = new GameForm();
+                gf.setVisible(true);
+                setVisible(false);
+            }
+        });
+        registrationButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+                RegistForm registForm = new RegistForm();
+                registForm.setVisible(true);
+                registForm.setBounds(200,200, 400,400);
+                registForm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             }
         });
     }

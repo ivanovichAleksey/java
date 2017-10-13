@@ -30,9 +30,15 @@ public class LoginForm extends JFrame {
                     JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.WARNING_MESSAGE);
                     return;
                 }
-                GameForm gf = new GameForm();
-                gf.setVisible(true);
-                setVisible(false);
+                GameForm gf = null;
+                try {
+                    gf = new GameForm();
+                    gf.setVisible(true);
+                    setVisible(false);
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                }
+
             }
         });
         registrationButton.addActionListener(new ActionListener() {
@@ -47,6 +53,4 @@ public class LoginForm extends JFrame {
         });
     }
 
-    public void isVisible(boolean b) {
-    }
 }

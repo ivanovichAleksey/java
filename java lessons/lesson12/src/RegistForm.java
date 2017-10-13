@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 import java.sql.SQLIntegrityConstraintViolationException;
 
 public class RegistForm extends JFrame{
@@ -59,7 +60,12 @@ public class RegistForm extends JFrame{
                     JOptionPane.showMessageDialog(null,"Ощибка регистрации", "Error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-                GameForm gf = new GameForm();
+                GameForm gf = null;
+                try {
+                    gf = new GameForm();
+                } catch (SQLException e1) {
+
+                }
                 gf.setVisible(true);
                 setVisible(false);
             }

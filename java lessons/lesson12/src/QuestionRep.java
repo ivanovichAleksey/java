@@ -13,7 +13,7 @@ public class QuestionRep  {
         while (result.next()){
             Question q = new Question();
             q.id = result.getInt("id");
-            q.words = result.getString("worda").split(";");
+            q.words = result.getString("words").split(";");
             q.answer = result.getString("answer");
             q.answer_imj = result.getString("answer_imj");
             questions.add(q);

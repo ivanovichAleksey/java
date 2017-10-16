@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lesson12:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f53cb5d6-0671-4356-976f-165801f739f9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,60 +30,8 @@
       <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LoginForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionRep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuestionRep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1507915599770" expanded="true" signature="356:379" ph="SELECT * FRO... questions" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RegistForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayersRep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PlayersRep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-                <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-                <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GameForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1347">
-              <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,37 +42,48 @@
       <file leaf-file-name="RecordsForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecordsForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecordRec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RecordRec.java">
+      <file leaf-file-name="RecordsRep.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RecordsRep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="782">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1508173009937" expanded="true" signature="375:393" ph="SELECT * FRO... questions" />
+                <marker date="1508173009937" expanded="true" signature="375:418" ph="SELECT score... records" />
+                <marker date="1508173009937" expanded="true" signature="756:784" ph="UPDATE INTO " />
+                <marker date="1508173009937" expanded="true" signature="756:805" ph="UPDATE INTO " />
+                <marker date="1508173009937" expanded="true" signature="756:823" ph="UPDATE recor... " />
+                <marker date="1508173009937" expanded="true" signature="1011:1078" ph="INSERT INTO records" />
+                <marker date="1508173009937" expanded="true" signature="1370:1459" ph="SELECT login... records" />
+                <marker date="1508173009937" expanded="true" signature="1370:1466" ph="SELECT login... records" />
+                <marker date="1508173009937" expanded="true" signature="1370:1486" ph="SELECT login... records" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Record.java">
+      <file leaf-file-name="PlayersRep.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PlayersRep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+                <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+                <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordsForm.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RecordsForm.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -145,17 +109,18 @@
         <option value="$PROJECT_DIR$/src/LoginForm.form" />
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/RegistForm.form" />
-        <option value="$PROJECT_DIR$/src/PlayersRep.java" />
         <option value="$PROJECT_DIR$/src/Question.java" />
         <option value="$PROJECT_DIR$/src/RegistForm.java" />
         <option value="$PROJECT_DIR$/src/GameForm.form" />
         <option value="$PROJECT_DIR$/src/LoginForm.java" />
         <option value="$PROJECT_DIR$/src/QuestionRep.java" />
-        <option value="$PROJECT_DIR$/src/GameForm.java" />
-        <option value="$PROJECT_DIR$/src/RecordsForm.form" />
-        <option value="$PROJECT_DIR$/src/RecordsForm.java" />
         <option value="$PROJECT_DIR$/src/RecordRec.java" />
+        <option value="$PROJECT_DIR$/src/PlayersRep.java" />
         <option value="$PROJECT_DIR$/src/Record.java" />
+        <option value="$PROJECT_DIR$/src/RecordsForm.form" />
+        <option value="$PROJECT_DIR$/src/GameForm.java" />
+        <option value="$PROJECT_DIR$/src/RecordsForm.java" />
+        <option value="$PROJECT_DIR$/src/RecordsRep.java" />
       </list>
     </option>
   </component>
@@ -186,6 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,25 +169,7 @@
               <item name="lesson12" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GameForm" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="lesson12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="lesson12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecordsForm" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="lesson12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RegistForm" type="e9f4de52:FormNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lesson12" type="b2602c69:ProjectViewProjectNode" />
@@ -232,8 +181,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,9 +189,13 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="131" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lesson12" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -377,11 +328,12 @@
       <workItem from="1507907860283" duration="1362000" />
       <workItem from="1507909684284" duration="1584000" />
       <workItem from="1507911634113" duration="5477000" />
+      <workItem from="1508165575560" duration="8681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28882000" />
+    <option name="totallyTimeSpent" value="37563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -399,7 +351,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18122977" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18365696" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -427,15 +379,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameForm.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -483,9 +431,9 @@
           <caret line="9" column="113" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-            <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-            <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+            <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
           </folding>
         </state>
       </provider>
@@ -537,9 +485,9 @@
           <caret line="9" column="113" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-            <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-            <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+            <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
           </folding>
         </state>
       </provider>
@@ -580,8 +528,7 @@
         <state relative-caret-position="238">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507915599770" expanded="true" signature="356:379" ph="SELECT * FRO... questions" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,9 +557,9 @@
           <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-            <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-            <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+            <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
           </folding>
         </state>
       </provider>
@@ -662,9 +609,9 @@
           <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-            <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-            <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+            <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
           </folding>
         </state>
       </provider>
@@ -726,14 +673,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JdbcConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -748,50 +687,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuestionRep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507915599770" expanded="true" signature="356:379" ph="SELECT * FRO... questions" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegistForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,54 +705,121 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegistForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuestionRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="80" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RecordsForm.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RecordsForm.java">
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RecordRec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayersRep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507742586019" expanded="true" signature="363:419" ph="SELECT id FR... players" />
-            <marker date="1507742586019" expanded="true" signature="869:888" ph="INSERT INTO players... " />
-            <marker date="1507742586019" expanded="true" signature="869:929" ph="INSERT INTO players... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1347">
-          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state relative-caret-position="-13">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="true" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecordsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayersRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508171697606" expanded="true" signature="362:418" ph="SELECT id FR... players" />
+            <marker date="1508171697606" expanded="true" signature="868:887" ph="INSERT INTO players... " />
+            <marker date="1508171697606" expanded="true" signature="868:928" ph="INSERT INTO players... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecordsRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508173009937" expanded="true" signature="375:393" ph="SELECT * FRO... questions" />
+            <marker date="1508173009937" expanded="true" signature="375:418" ph="SELECT score... records" />
+            <marker date="1508173009937" expanded="true" signature="756:784" ph="UPDATE INTO " />
+            <marker date="1508173009937" expanded="true" signature="756:805" ph="UPDATE INTO " />
+            <marker date="1508173009937" expanded="true" signature="756:823" ph="UPDATE recor... " />
+            <marker date="1508173009937" expanded="true" signature="1011:1078" ph="INSERT INTO records" />
+            <marker date="1508173009937" expanded="true" signature="1370:1459" ph="SELECT login... records" />
+            <marker date="1508173009937" expanded="true" signature="1370:1466" ph="SELECT login... records" />
+            <marker date="1508173009937" expanded="true" signature="1370:1486" ph="SELECT login... records" />
           </folding>
         </state>
       </provider>
@@ -863,10 +830,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>lesson12:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

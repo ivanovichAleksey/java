@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class PlayersRep {
-    private static int playerId;
+    public static int playerId;
     public void login(String login,String password) throws Exception {
         Connection conn = JdbcConnection.getConnection();
         PreparedStatement ps = conn.prepareStatement("SELECT id FROM players WHERE login = ? and pass_hash = ?");

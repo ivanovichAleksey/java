@@ -11,18 +11,25 @@ body {margin: 0px; padding: 0px; font-family: 'Roboto Condensed', sans-serif; fo
 .menu ul a {display: block;text-decoration: none;color: #000;}
 .top-menu {background: #ccc;border:1px solid #ddd;margin-top: 5px}
 .top-menu:after {content: '';display: block; clear: both;}
-.top-menu li {float: left;}
-.top-menu li a {padding: 0px 15px; line-height: 35px; border-left: 1px solid #fff;}
-.top-menu li a:hover {color: red;}
+.top-menu > ul > li {float: left;position: relative;}
+.top-menu > ul > li > a {padding: 0px 15px; line-height: 35px; border-left: 1px solid #fff;}
+.top-menu ul li a:hover {color: red;}
 .top-menu li:first-child a {border-left: 0px;}
+.top-menu li ul{position: absolute;display: none;background: #fff;box-shadow: 0px 5px 5px gray;width: 200px;}
 .col-left {float: left;width: 200px;}
 .col-left + .content {margin-left: 210px;}
 .title {font-size: 25px; text-transform: uppercase;margin-top: 0px;margin-bottom: 10px;font-weight: 400px;border-bottom: 3px solid #ccc;padding-bottom: 5px;}
-.left-menu a {border-bottom: 1px solid #ccc;line-height: 30px;}
-.left-menu a:hover {border-color: red;}
-.left-menu a:before {content: '';display: inline-block;border-left: 15px solid gray; border-bottom: 8px solid #fff;border-top: 8px solid #fff;margin-right: 5px;vertical-align: middle;}
+.left-menu a, .top-menu li ul a {border-bottom: 1px solid #ccc;line-height: 30px;}
+.left-menu a:hover, .top-menu li ul a:hover {border-color: red;}
+.left-menu a:before, .top-menu li ul a:before {content: '';display: inline-block;border-left: 15px solid gray; border-bottom: 8px solid #fff;border-top: 8px solid #fff;margin-right: 5px;vertical-align: middle;}
 header {}
 footer {border-top: 1px solid #ccc;}
 footer .col {float: left;width: 33.3333%;box-sizing: border-box;padding: 5px;}
 footer .col:nth-child(2) {text-align: center;}
 footer .col:last-child {text-align: right;}
+@media (min-width: 1200px){.top-menu li:hover ul{display: block;}}
+@media (max-width: 1200px){.container{width: 980px;padding: 5px}}
+@media (max-width: 1000px){.container{width: 760px}}
+@media (max-width: 780px){.container{width: 640px}}
+@media (max-width: 660px) and (max-width: 780px){}
+@media (max-width: 660px){.container{width: 100%}}

@@ -7,14 +7,19 @@ $(function(){
 	}
 	if (vdh < 1200){
 		$( ".toggle" ).click(function() {
-			$( "ul .toggle" ).next().hide(50);
-			if($( this ).hasClass('active')){
+			if ($(this).hasClass('button-menu')){
+				var te = $(this);
+			} else{
+				var te = $(this).parents('ul').find(".toggle");
+			}
+			$(te).next().hide(50);
+			if($(this).hasClass('active')){
 				$(this).removeClass('active');
 			}
 			else{
-			$( "ul .toggle" ).removeClass('active');
- 			$( this ).next().show(50);
- 			$(this).addClass('active');
+				$(te).removeClass('active');
+ 				$(this).next().show(50);
+ 				$(this).addClass('active');
 
  			}
  			return false;

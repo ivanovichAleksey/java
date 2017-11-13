@@ -10,6 +10,7 @@ body {margin: 0px; padding: 0px; font-family: 'Roboto Condensed', sans-serif; fo
 .menu ul {padding: 0px;margin: 0px;list-style-type: none;}
 .menu ul a {display: block;text-decoration: none;color: #000;}
 .top-menu {background: #ccc;border:1px solid #ddd;margin-top: 5px}
+.button-menu{display: none;}
 .top-menu:after {content: '';display: block; clear: both;}
 .top-menu > ul > li {float: left;position: relative;}
 .top-menu > ul > li > a {padding: 0px 15px; line-height: 35px; border-left: 1px solid #fff;}
@@ -30,6 +31,6 @@ footer .col:last-child {text-align: right;}
 @media (min-width: 1200px){.top-menu li:hover ul{display: block;}}
 @media (max-width: 1200px){.container{width: 980px;padding: 5px}}
 @media (max-width: 1000px){.container{width: 760px}}
-@media (max-width: 780px){.container{width: 640px}}
+@media (max-width: 780px){.container{width: 640px;}.col-left{display: none;}.col-left + .content{margin-left: 0px}}
 @media (max-width: 660px) and (max-width: 780px){}
-@media (max-width: 660px){.container{width: 100%}}
+@media (max-width: 660px){.container{width: 100%}.button-menu{display: block;background: url('menu.png') no-repeat center;height: 35px}.top-menu > ul{display: none;}.top-menu > ul > li{float: none;}.top-menu ul li a{border-left: 0px; text-transform: uppercase;font-weight: bold;}.top-menu ul li ul {position: static;width: 100%}}

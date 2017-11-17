@@ -1,22 +1,20 @@
 <?php 
 	$title = 'Основной заголовок страницы';
 	$link = mysqli_connect("127.0.0.1", "ivanovich_a_b1", "b1", "ivanovich_a_b1");
-
+	$link->set_charset("utf8");
 	if (!$link) {
     echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
     echo "Код ошибки errno: " . mysqli_connect_errno() . PHP_EOL;
     echo "Текст ошибки error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 	}
-	$link->set_charset("utf8");
-	$query = "SELECT * FROM content";
-	//$result = $link->query($query);
-	$result = mysqli_query($link, $query);
-	$row = mysqli_fetch_array($result);
 	
-	//while($info = $row){
-		
-	//}
+	$row = $link->query("SELECT * FROM content");
+	
+	while ($ddata = mysqli_fetch_array($row)){
+		$info[] = $ddata;
+	}
+	
 	mysqli_close($link);
 
 ?>

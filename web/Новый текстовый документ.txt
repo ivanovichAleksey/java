@@ -2,3 +2,7 @@
 185.133.42.72:8083
 filezilla
 sublime_text 
+htpassword
+	log: ivanovich
+	pass: 123456789
+

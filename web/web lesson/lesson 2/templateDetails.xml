@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site" method="upgrade">
+	<name>mytheme</name>
+	<version>1.0.0</version>
+	<edition>pro</edition>
+	<creationDate>August 2014</creationDate>
+	<author>--</author>
+	<authorEmail>--</authorEmail>
+	<authorUrl>--</authorUrl>
+	<copyright>Copyright</copyright>
+	
+
+	<files>
+		<filename>menu.png</filename>
+		<filename>no-image.jpg</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>style.css</filename>
+		<filename>script.js</filename>
+		<folder>html</folder>
+	</files>
+
+	<positions>
+		<position>position-1</position>
+	</positions>
+</extension>

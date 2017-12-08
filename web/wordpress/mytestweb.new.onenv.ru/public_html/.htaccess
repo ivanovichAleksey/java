@@ -1,0 +1,39 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+<Files wp-config.php>
+ order allow,deny
+ deny from all
+ </Files>
+ <Files ~ ".(xml|css|jpe?g|png|gif|js)$">
+ Allow from all
+ </Files>
+ RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} .wp-comments-post\.php*
+RewriteCond %{HTTP_REFERER} !.*mytestwebwp123.onenv.ru.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) http://%{REMOTE_ADDR}/$ [R=301,L]
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+<Files wp-login.php>
+AuthType Basic
+AuthName "Thats protected Area!"
+AuthUserFile /home/ivanovich_a/web/mytestwebwp123.onenv.ru/public_html/.htpasswd
+Require valid-user
+</Files>
+<Files .htpasswd>
+   deny from all  #запрет доступа из браузера к .htpasswd
+</Files>

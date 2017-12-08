@@ -6,3 +6,6 @@ htpassword
 	log: ivanovich
 	pass: 123456789
 
+databor.ru
+hostiman.ru
+
